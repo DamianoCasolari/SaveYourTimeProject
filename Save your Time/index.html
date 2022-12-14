@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Save your Time | Coding Week</title>
+
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@500;600;700&display=swap" rel="stylesheet">
+
+        <!-- Style -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+         <header>
+            <div class="header-top"></div>
+            <div class="header-bottom">
+                Tempo giornaliero dedicato : <span class="total-slot">0/ore</span><span class="total-slot2">0.00 min</span><br> <div class="Numero attività">Totale attività :<span class="total-slot3">0</span></div>
+            </div>
+           
+         </header>
+         <main>
+            <ul class="gift-list">
+               <!-- <li class="gift-elements">
+                    <div class="gift-info">
+                        <h3>sara</h3>
+                        <p>biglietti cinema</p>
+                    </div>
+                    <div class="gift-price">
+                        16.00€
+                    </div>
+                    <button class="gift-button">❌</button>
+                </li>
+-->
+           </ul>       
+
+            <!--form-->
+            <form id="gift-form">
+                <div class="form-fields">
+                    <input id="input-name" type="text"maxlength="20" placeholder="Attività" required>
+                    <input id="input-price" type="number" min= "0.01" step="0.01" placeholder="minuti" required>
+                    <input id="input-giftInfo" type="text" maxlength="40" placeholder="Dettagli sul attività " required>
+                </div>
+                <button class="Add-note">+</button>
+            </form>
+         </main>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

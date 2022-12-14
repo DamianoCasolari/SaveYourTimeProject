@@ -1,0 +1,198 @@
+/** COLOR PALETTE & FONT 
+* blue: #3535ec;
+* blue-dark: #120945;
+* gray: #d4d7f5;
+* green: #306753;
+* pink: #de7eb6;
+* font: Livvic, sans-serif;
+*/
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+button {
+  cursor: pointer;
+}
+
+  /*-----Container----*/
+  .container {
+    width: 420px;
+    margin: 0 auto;
+  }
+
+  html {
+    background-color: #d4d7f5;
+    font-family: Livvic, sans-serif;
+    line-height: 1.2;
+  }
+
+  /*-- header--*/
+header{
+  position: sticky;
+  left: 0;
+  top: 0;
+}
+
+  .header-top{
+    height: 140px;
+    background-position: top 40px;
+    background-image: url(images/Gestione-Tempo.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    ;
+  }
+
+  .header-bottom {
+
+    height: 80px;
+    color: white;
+    background:
+    linear-gradient(rgb(104, 122, 97), transparent),
+    linear-gradient(to top left, rgb(211, 212, 211), transparent),
+    linear-gradient(to top right, rgb(42, 42, 186), transparent);
+
+    border-radius: 0px 0px 16px 16px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+
+
+
+  .total-slot {
+
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 10px;
+
+  }
+  .total-slot2 {
+
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 10px;
+
+  }
+
+  .total-slot3 {
+
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 10px;
+
+  }
+
+  main {
+    padding: 8px;
+
+  }
+
+  /*LIsta regali*/
+
+
+
+  .gift-elements {
+      display: flex;
+      border: 4px solid white;
+      border-radius: 8px;
+      font-size: 18px;
+      margin-bottom: 8px;
+      flex-direction: column;
+      align-items: center;
+      
+     
+  }
+  .gift-info {
+    padding: 8PX;
+    width: 60%;
+   
+  }
+
+  #previous-image {
+    
+    width: 20%;
+    margin: 10px;
+   
+  }
+
+  .gift-price {
+    padding: 8px;
+    width: 20%;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .gift-button{
+    width: 10%;
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+    font-size: 22px;
+    margin: 15px;
+    
+  }
+
+  form {
+    background:
+    linear-gradient(rgb(104, 122, 97), transparent),
+    linear-gradient(to top left, rgb(211, 212, 211), transparent),
+    linear-gradient(to top right, rgb(8, 8, 90), transparent);
+    border-radius: 8px;
+  }
+
+  .form-fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 8px;
+    padding: 8px;
+
+  }
+
+  input {
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    width: 100%;
+   
+  }
+
+  #input-name {
+    width: calc(70% - 8px);
+  }
+  #input-price {
+    width: 30%;
+
+  }
+  .infoNote {
+    display: flex;
+    justify-content: space-around;
+  }
+
+/*--button aggiungi nota--*/
+
+  #gift-form {
+    display: flex;
+    
+   
+  }
+
+  .Add-note {
+     width: 50px;
+     font-size: 30px;
+     font-weight: bold;
+     color: white;
+     background-color: transparent;
+     border: none;
+     padding-right: 8px;
+     padding-top: 2px;
+  }
